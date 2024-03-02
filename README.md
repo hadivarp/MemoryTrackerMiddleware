@@ -35,17 +35,17 @@ W, [2024-03-02T15:00:44.013239 #26872]  WARN -- : {"request_id":"670086b2-cde1-4
 
 ## Log Details
 
-request_id: Unique identifier for each request.
-method, url, controller, action: Request details.
-gc_stats_before, gc_stats_after: GC stats before and after the request.
-memory_before, memory_after: Memory usage before and after the request (in MB).
-objects_before, objects_after: Object counts before and after the request.
-query_cache_before, query_cache_after: Query cache size before and after the request.
-request_time: Time taken for the request.
+* **request_id:** Unique identifier for each request.
+* **method, url, controller, action:** Request details.
+* **gc_stats_before, gc_stats_after:** GC stats before and after the request.
+* **memory_before, memory_after:** Memory usage before and after the request (in MB).
+* **objects_before, objects_after:** Object counts before and after the request.
+* **query_cache_before, query_cache_after:** Query cache size before and after the request.
+* **request_time:** Time taken for the request.
 
 ## Performance Considerations
 
-The impact of the MemoryTrackerMiddleware on the performance of your Rails application depends on various factors, including the frequency and intensity of memory tracking, the overall load on your application, and the available system resources.
+* The impact of the MemoryTrackerMiddleware on the performance of your Rails application depends on various factors, including the frequency and intensity of memory tracking, the overall load on your application, and the available system resources.
 
 Here are some considerations:
 
